@@ -1,15 +1,18 @@
+@import 'sass/_colors';
+@import 'sass/_typography';
+@import 'sass/spacing';
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-@import 'sass/colors';
-@import 'sass/typography';
-
 body{
   width: 100%;
-  background-color: #050607 ;
+  height: 100vh;
+  background-color: $bgBody ;
+  color: $branco;
 }
 
-@import 'sass/layout';
+@import 'sass/_layout';
