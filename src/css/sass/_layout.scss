@@ -1,9 +1,7 @@
 header{
   max-width: 1200px;
-
   margin: 0 auto;
-
-  padding: 8px 24px;
+  padding: 20px 24px;
 }
 
 a{
@@ -36,6 +34,7 @@ a{
 .menu{
   list-style: none;
   display: flex;
+  font-family: 'Poppins', sans-serif;
 
   li{
       margin-left: 24px;
@@ -68,8 +67,8 @@ a{
 }
 
 .img-profile{
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: 60px;
   background-color: $gray-2;
   border-radius: 50%;
 }

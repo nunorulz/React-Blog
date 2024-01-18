@@ -16,3 +16,45 @@ body{
 }
 
 @import 'sass/_layout';
+
+.add-button{
+  display: block;
+  border: 0;
+  background-color: green;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: white;
+  font-size: 64px;
+  width: 100px;
+  cursor: pointer;
+  &:hover{
+    background-color: greenyellow;
+  }
+}
+
+.remove-button{
+  display: block;
+  border: 0;
+  background-color: red;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: white;
+  font-size: 64px;
+  width: 100px;
+  cursor: pointer;
+  &:hover{
+    background-color: pink;
+  }
+}
+
+button{
+  padding: 8px;
+  background-color: $white-normal;
+  border: 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:hover{
+    background-color: #c1c1c1;
+  }
+}
